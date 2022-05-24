@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.listasimple.app-mergeDebugResources-28:/layout/row_item_layout.xml",
+        "source": "com.example.listasimple.app-main-31:/layout/row_item_layout.xml"
+    },
+    {
+        "merged": "com.example.listasimple.app-mergeDebugResources-28:/layout/activity_simple_list.xml",
+        "source": "com.example.listasimple.app-main-31:/layout/activity_simple_list.xml"
+    },
+    {
+        "merged": "com.example.listasimple.app-mergeDebugResources-28:/layout/activity_main.xml",
+        "source": "com.example.listasimple.app-main-31:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+dimen box_inset_layout_padding
+dimen inner_frame_layout_padding
+id btnAvanzado
+id btnSimple
+id simple_recyclerview
+id simple_text
+id titulo
+layout activity_main
+layout activity_simple_list
+layout row_item_layout
+mipmap ic_launcher
+string app_name
+string hello_world

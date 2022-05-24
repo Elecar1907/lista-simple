@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.listasimple"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:5:22-65
+12
+13    <uses-feature android:name="android.hardware.type.watch" />
+13-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:7:5-64
+13-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:7:19-61
+14
+15    <application
+15-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:9:5-40:19
+16        android:allowBackup="true"
+16-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\d8338c189490aee58604e111af57865f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:12:9-41
+22        android:supportsRtl="true"
+22-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@android:style/Theme.DeviceDefault" >
+24-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:14:9-59
+25        <activity
+25-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:15:9-17:40
+26            android:name="com.example.listasimple.SimpleListActivity"
+26-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:16:13-47
+27            android:exported="false" />
+27-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:17:13-37
+28
+29        <uses-library
+29-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:19:9-21:39
+30            android:name="com.google.android.wearable"
+30-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:20:13-55
+31            android:required="true" />
+31-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:21:13-36
+32        <!--
+33               Set to true if your app is Standalone, that is, it does not require the handheld
+34               app to run.
+35        -->
+36        <meta-data
+36-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:26:9-28:36
+37            android:name="com.google.android.wearable.standalone"
+37-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:27:13-66
+38            android:value="true" />
+38-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:28:13-33
+39
+40        <activity
+40-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:30:9-39:20
+41            android:name="com.example.listasimple.MainActivity"
+41-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:31:13-41
+42            android:exported="true"
+42-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:32:13-36
+43            android:label="@string/app_name" >
+43-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:33:13-45
+44            <intent-filter>
+44-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:34:13-38:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:35:17-69
+45-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:35:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:37:17-77
+47-->C:\Users\ELEAZAR\AndroidStudioProjects\ListaSimple\app\src\main\AndroidManifest.xml:37:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\2ed66d48eca9f868ea58025ddf61d416\transformed\play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\2ed66d48eca9f868ea58025ddf61d416\transformed\play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\2ed66d48eca9f868ea58025ddf61d416\transformed\play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\2ed66d48eca9f868ea58025ddf61d416\transformed\play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+54
+55        <meta-data
+55-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\0a3bf71eef2c3ad65b8006422d35e10d\transformed\play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+56            android:name="com.google.android.gms.version"
+56-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\0a3bf71eef2c3ad65b8006422d35e10d\transformed\play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+57            android:value="@integer/google_play_services_version" />
+57-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\0a3bf71eef2c3ad65b8006422d35e10d\transformed\play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+61            android:authorities="com.example.listasimple.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ELEAZAR\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+69        </provider>
+70    </application>
+71
+72</manifest>

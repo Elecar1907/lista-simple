@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.example.listasimple.app-merged_res-29:/layout_activity_simple_list.xml.flat",
+        "source": "com.example.listasimple.app-main-31:/layout/activity_simple_list.xml"
+    },
+    {
+        "merged": "com.example.listasimple.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.listasimple.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.listasimple.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.listasimple.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.listasimple.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.listasimple.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.listasimple.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.listasimple.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.listasimple.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.listasimple.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.listasimple.app-merged_res-29:/layout_row_item_layout.xml.flat",
+        "source": "com.example.listasimple.app-main-31:/layout/row_item_layout.xml"
+    },
+    {
+        "merged": "com.example.listasimple.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.listasimple.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    }
+]
